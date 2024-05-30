@@ -4,7 +4,7 @@
         <link rel="stylesheet" type="text/css" href="sytle.css">
 </head>
 <body>
-        <h1>5월Dreamhack CTF Season 5 Round #10 pharmacy Write-Up</h1>
+        <h1>5월 Dreamhack CTF Season 5 Round #10 pharmacy Write-Up</h1>
 </body>
 <br>
 <br>
