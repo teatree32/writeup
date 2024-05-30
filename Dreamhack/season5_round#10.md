@@ -33,8 +33,20 @@ deploy/src/index : parmacy 웹 사이트를 나타내고 있는 파일로 처방
 deploy/src/uploads/placeholder : 이미지를 업로드할 때 필요한 파일 같다.
 
 그럼 파일을 하나하나 분석해 보자. 먼저 Dockerfile 파일 코드를 해석해보겠다.
+```python
+FROM php:7.4-apache
 
-![image](https://github.com/teatree32/writeup/assets/164837312/01020f3f-7471-410c-b10d-66e348c39b47)
+COPY ./deploy/run.sh /usr/sbin/
+RUN chmod +x /usr/sbin/run.sh
+
+COPY ./deploy/src /var/www/html
+RUN chmod 777 /var/www/html/uploads
+
+COPY ./deploy/flag.txt /
+
+EXPOSE 80
+CMD ["/usr/sbin/run.sh"]
+```
 
 4월달 CTF에서 공부해본 내용과 겹치는 내용이 있지만 chmod 777 은 처음 보는 코드라서 검색해 보았다.
 파일 사용 권한은 숫자 또는 기호 형식으로 나타낼 수 있는데 r(읽기) = 4, w(쓰기) = 2, x(숫자) = 1을 의미한다. 이때 7은 4+2+1로 읽기 쓰기 및 실행권한을 가지는 것을 의미한다.
