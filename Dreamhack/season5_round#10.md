@@ -74,15 +74,7 @@ index파일의 스타일을 나타나내느 css 파일임을 알 수 있다.
 ![image](https://github.com/teatree32/writeup/assets/164837312/20d0292c-ae48-4fc1-9116-44b6baeb13bb)
 ![image](https://github.com/teatree32/writeup/assets/164837312/96cf1cc8-092f-43cf-afb8-e021c98bc69a)
 
-코드를 살펴보면 supermarke.php와 syle.css가 연결된 것을 확인할 수 있다.
-
-
-
-
-
-
-
-
+코드를 살펴보면 supermarke.php와 style.css가 연결된 것을 확인할 수 있다.
 
 
 
