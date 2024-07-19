@@ -81,13 +81,16 @@ def login():
 app.run(host='0.0.0.0', port=8000)
 ```
 코드를 살펴보면
-'''python
+
+```python
 try:
     FLAG = open('./flag.txt', 'r').read()
 except:
     FLAG = '[**FLAG**]'
 ```
+
 이 부분에서 FLAG를 열 수 있는것 같다.
+
 ```python
 if res:
             userid = res[0]
@@ -111,6 +114,7 @@ select * from users where userid="admin";--" and userpassword="{userpassword}"'
 select * from users where userid="admin"
 ```
 까지인 것이니 admin";--으로 로그인이 가능하게 된다.
+id는 admin";--으로 하고 password는 아무거나 입력해 보면
 
 ![image](https://github.com/user-attachments/assets/323873f7-efe5-40e9-a1d7-a853851914d1)
 
