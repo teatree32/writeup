@@ -100,20 +100,21 @@ if res:
 ```python
 res = query_db(f'select * from users where userid="{userid}" and userpassword="{userpassword}"')
 ```
-로그인 id와 password를 DB로 넘기는 코드를 자세히 살펴보니 userdi로 입력한 값은 userid로 가고 userpassword로 입력한 값은 userpassword로 가서 인증을 요구한다는 것을 알 수 있습니다.
-이때 admin이라는 id를 알고 있으니 id 창에 ``` admin"# ```을 추가하여 아래와 같이 주석처리 한다면 
+로그인 id와 password를 DB로 넘기는 코드를 자세히 살펴보니 userdi로 입력한 값은 userid로 가고 userpassword로 입력한 값은 userpassword로 가서 인증을 요구한다는 것을 알 수 있다.
+이때 admin이라는 id를 알고 있으니 id 창에 ``` admin";-- ```을 추가하여 아래와 같이 주석처리 한다면 
 ```python
-select * from users where userid="admin"#" and userpassword="{userpassword}"'
+select * from users where userid="admin";--" and userpassword="{userpassword}"'
 ```
-이렇게 SQL문이 DB로 전달될 것입니다.
+이렇게 SQL문이 DB로 전달될 것이다.
 여기서 DB가 전달 받은 주석처리가 된 SQL문은 
 ```python
 select * from users where userid="admin"
 ```
-까지인 것이니 admin으로 로그인이 가능하게 됩니다.
+까지인 것이니 admin";--으로 로그인이 가능하게 된다.
 
 ![image](https://github.com/user-attachments/assets/323873f7-efe5-40e9-a1d7-a853851914d1)
 
 ![image](https://github.com/user-attachments/assets/e8dc76cd-18d8-4c84-934b-ae6d9be34bed)
 
+플레그를 얻었다!!
 
