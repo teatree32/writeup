@@ -112,3 +112,8 @@ select * from users where userid="admin"
 ```
 까지인 것이니 admin으로 로그인이 가능하게 됩니다.
 
+![image](https://github.com/user-attachments/assets/323873f7-efe5-40e9-a1d7-a853851914d1)
+
+![image](https://github.com/user-attachments/assets/e8dc76cd-18d8-4c84-934b-ae6d9be34bed)
+
+
