@@ -120,5 +120,5 @@ id는 admin";--으로 하고 password는 아무거나 입력해 보면
 
 ![image](https://github.com/user-attachments/assets/e8dc76cd-18d8-4c84-934b-ae6d9be34bed)
 
-플레그를 얻었다!!
+플레그를 얻었다!!!
 
