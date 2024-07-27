@@ -105,7 +105,8 @@ def login_page():
 코드 수정후 다시 로그인 창으로 들어가 관리자로 로그인을 시도해보자
 ![스크린샷 2024-07-27 115833](https://github.com/user-attachments/assets/1233fffd-85f4-4d25-a0b5-d4c8caf1add3)
 
-Sign in을 누르니...
+Sign in을 누르니
+
 ![스크린샷 2024-07-27 115814](https://github.com/user-attachments/assets/06726a06-34bd-45ef-b3b5-95299f72fc15)
 
 FLAG 창이 떳다.
