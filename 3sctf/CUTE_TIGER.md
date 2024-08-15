@@ -11,7 +11,9 @@
 </html>
 
 먼저 README.pdf에 있는 주소로 들어가 image.jpg 파일을 다운받았다.
+
 헥사를 이용해서 이미지 파일을 열어보았다.
+
 jpg 파일의 헤더부분과 푸터부분을 확인해보니 jpg 파일의 헤더/푸터 시그니처와 일치했다.
 
 ![image](https://github.com/user-attachments/assets/6cb164ca-d987-40d9-ae8f-f2e906cd3cc4)
