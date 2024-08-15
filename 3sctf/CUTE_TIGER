@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" type="text/css" href="sytle.css">
+</head>
+<body>
+        <h1>3SCTF #Forensic CUTE_TIGER Write-Up</h1>
+</body>
+<br>
+<br>
+</html>
+
+먼저 README.pdf에 있는 주소로 들어가 image.jpg 파일을 다운받았다.
+헥사를 이용해서 이미지 파일을 열어보았다.
+jpg 파일의 헤더부분과 푸터부분을 확인해보니 맞았다.
+이어서 FLAG 형식인 3S를 문자열에서 찾아보았다. 두개가 나오지만 둘다 FLAG는 아닌것 같다.
+
+
+
