@@ -19,6 +19,7 @@
 라고 써져있어 png 파일을 헥스로 열어보았다.
 
 png의 헤더/푸터 시그니처를 확인해보니 png 파일 형식에 맞다
+
 ![image](https://github.com/user-attachments/assets/255ad3be-7829-44ff-8dea-1646800fa5c1)
 
 flag나 flag 형식을 입력해보아도 나오는 것이 없다.
