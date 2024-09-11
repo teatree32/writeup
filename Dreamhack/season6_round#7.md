@@ -4,7 +4,7 @@
         <link rel="stylesheet" type="text/css" href="sytle.css">
 </head>
 <body>
-        <h1>5월 Dreamhack CTF Season 6 Round #7 Secure Image Storage Write-Up</h1>
+        <h1>9월 Dreamhack CTF Season 6 Round #7 Secure Image Storage Write-Up</h1>
 </body>
 <br>
 <br>
