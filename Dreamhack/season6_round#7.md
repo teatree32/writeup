@@ -219,6 +219,7 @@ if ('.' in path.splitext(file.filename)[0]) or ('/' in path.splitext(file.filena
 두번째로 확장자명을 대소문자 변경하는 것도 확장자가 png 인것만 받으니깐 불가능하다.
 
 세번째로 shell파일 맨 앞에 이미지 파일 시그니쳐를 추가하는 것은 시도해보았다.
+
 업로드는 성공적으로 되지만 서버가 png파일로 인식하여 php 파일이 실행되지 않는다.
 
 그리고 마지막으로 burpsuite를 사용해서 content-type 우회하기도 사용해 보았으나 세번째와 마찬가지로 파일업로드는 되나 
