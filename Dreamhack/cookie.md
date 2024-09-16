@@ -60,7 +60,7 @@ def login():
 app.run(host='0.0.0.0', port=8000)
 ```
 
-코드를 살펴보니 guest로 로그인이 가능하고 username이 admin일때 password가 플래그 인것 같다.
+코드를 살펴보니 guest로 로그인이 가능하고 admin으로 로그인하면 FLAG를 얻을 수 있을 것 같다.
 
 먼저 guest로 로그인 해보자.
 ![image](https://github.com/user-attachments/assets/910a6c25-88f1-4b34-9033-650e3d0097b2)
