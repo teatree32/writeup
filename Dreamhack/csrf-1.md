@@ -17,7 +17,7 @@
 
 ![image](https://github.com/user-attachments/assets/49ea69ff-eeb8-41e7-9ba9-d85afd9463b5)
 
-들어가보니 액세스 거부라고만 뜬다
+들어가보니 액세스 거부라고만 뜬다.
 
 이외에는 딱히 다른게 없는것 같다. 바로 문제 파일을 다운받아보자.
 ```python
