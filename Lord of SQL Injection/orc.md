@@ -152,3 +152,4 @@ Blinde SQL Injection을 사용해 위 부분을 통해 패스워드를 알아낼
 ![image](https://github.com/user-attachments/assets/f47933a9-76a7-4bc8-9ce3-5711eccdde02)
 
 Clear 했다!!
+
