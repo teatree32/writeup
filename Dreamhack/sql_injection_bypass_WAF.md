@@ -4,7 +4,7 @@
         <link rel="stylesheet" type="text/css" href="sytle.css">
 </head>
 <body>
-        <h1>Dreamhack Web Hacking #SQL Injection Bypass WAF Write-Up</h1>
+        <h1>Dreamhack Web Hacking SQL Injection Bypass WAF Write-Up</h1>
 </body>
 <br>
 <br>
