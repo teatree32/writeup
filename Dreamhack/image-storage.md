@@ -81,4 +81,4 @@ php 명령어 부분만 뜯어 보면 ```./uploads/```경로에 사용자가 올
 
 ![image](https://github.com/user-attachments/assets/931a5bfe-958b-4a4e-97bb-6abc32e48872)
 
-플래그가 출력되어 있다!!
+플래그가 출력되어 있다!
