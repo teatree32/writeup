@@ -4,7 +4,7 @@
         <link rel="stylesheet" type="text/css" href="sytle.css">
 </head>
 <body>
-        <h1>Dreamhack #Pwn echo Write-Up</h1>
+        <h1>BlockCTF 2024 #Pwn echo Write-Up</h1>
 </body>
 <br>
 <br>
