@@ -50,5 +50,4 @@ Base64로도 돌려봤지만 결과가 이상하다.
 
 ![image](https://github.com/user-attachments/assets/900f74da-4c76-400c-b080-1aaea902896b)
 
-와 도저히 뭔지 모르겠다. 
-
+와 뭔지 진짜 모르겠다..
