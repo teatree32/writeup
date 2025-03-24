@@ -12,7 +12,7 @@
 
 문제 설명
 --
-steg.png
+**steg.png**
 
 ![steg](https://github.com/user-attachments/assets/d0e56dd1-711e-416b-aecc-257e1a5734a8)
 
