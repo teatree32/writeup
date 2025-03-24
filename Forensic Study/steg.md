@@ -10,6 +10,9 @@
 <br>
 </html>
 
+문제 파일 steg.png는 다음과 같다.
+![steg](https://github.com/user-attachments/assets/d0e56dd1-711e-416b-aecc-257e1a5734a8)
+
 HxD로 열어 PNG 파일 시그니처를 확인했다.
 
 ![image](https://github.com/user-attachments/assets/cd3ad940-6706-4163-a757-cd057cdab7a1)
