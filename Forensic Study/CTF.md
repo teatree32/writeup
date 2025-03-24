@@ -56,7 +56,7 @@ PK... PK면 ZIP의 헤더 시그니처를 나타내는 것 같다. 아니나 다
 
 ![image](https://github.com/user-attachments/assets/43c66db4-9ad3-4f12-bd77-226e3e364ba6)
 
-쭉 나열해 보면 ```flag.bmp```, ```Hint1.png```, ```Hint2.png``` 이다.
+쭉 나열해 보면 ```flag.bmp```, ```Hint1.jpg```, ```Hint2.png``` 이다.
 
 아마 zip파일 추출해서 압축을 풀면 위의 파일들이 나타나는것 같은데... 추출하는 법을 모르겠다...
 
