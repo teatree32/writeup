@@ -10,8 +10,15 @@
 <br>
 </html>
 
-문제 파일 steg.png는 다음과 같다.
+문제 설명
+--
+steg.png
+
 ![steg](https://github.com/user-attachments/assets/d0e56dd1-711e-416b-aecc-257e1a5734a8)
+
+
+문제 풀이
+--
 
 HxD로 열어 PNG 파일 시그니처를 확인했다.
 
