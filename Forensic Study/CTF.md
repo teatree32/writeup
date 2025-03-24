@@ -112,9 +112,9 @@ Look at the different Hex values on lines 00000100 to 00005000. The flag begins 
 
 일단 여기서 더 얻을 수 있는 것은 없는 것 같으니 다시 CTFzip.zip 파일로 돌아가보자
 
-아까 CTF.jpeg 에서 zip 헤더 시그니처가 3개였고 1번재 헤더 시그니처부터 복붙하여 새 파일을 만드니 flag.bmp 파일이 나온것이니 2번째 헤더 시그니처부터 복붙해 새 파일을 만들면 뭐가 하나 더 나오지 않을까? 싶다.
+아까 CTF.jpeg 에서 zip 헤더 시그니처가 3개였고 1번째 헤더 시그니처부터 복붙하여 새 파일을 만드니 flag.bmp 파일이 나온것이니 2번째 헤더 시그니처부터 복붙해 새 파일을 만들면 뭐가 하나 더 나오지 않을까? 싶다.
 
-그래서 CTFzip.zip에서 2번재 였던 헤더 시그니처를 찾아 CTFzip2.zip으로 만들었다.
+그래서 CTFzip.zip에서 2번째 였던 헤더 시그니처를 찾아 CTFzip2.zip으로 만들었다.
 
 ![image](https://github.com/user-attachments/assets/89da0c31-6fb6-4975-a796-294721db3bb2)
 
@@ -171,4 +171,5 @@ https://www.rapidtables.com/convert/number/ascii-hex-bin-dec-converter.html
 ![image](https://github.com/user-attachments/assets/5acc55c6-2033-45a9-8de1-6e2309adee75)
 
 **Flag**
+
 3S{f06ens1cs_1s_Re6lly_FUn}
