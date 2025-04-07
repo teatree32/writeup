@@ -10,7 +10,7 @@
 <br>
 </html>
 
-문제 파일 ```dump.pcap```fmf Wireshark로 열어보았다.
+문제 파일 ```dump.pcap```를 Wireshark로 열어보았다.
 
 우선 http를 살펴보자.
 
