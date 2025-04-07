@@ -4,7 +4,7 @@
         <link rel="stylesheet" type="text/css" href="sytle.css">
 </head>
 <body>
-        <h1>[2025 SWING Forensic Study] CTF Write-up</h1>
+        <h1>[2025 SWING Forensic Study] Network Recoverly! Write-up</h1>
 </body>
 <br>
 <br>
