@@ -50,6 +50,8 @@ TCP strem으로 확인해보면 Sec558user1이 상대방 메신저 이름일 것
 
 A1. Sec558user1
 
+----
+
 **Q2. 캡처 된 IM 대화에서 첫 번째 문자는 무엇입니까?**
 
 TCP strem으로 확인했을 때 상대방 이름 뒤에 첫 문자가 나온다.
@@ -58,6 +60,8 @@ TCP strem으로 확인했을 때 상대방 이름 뒤에 첫 문자가 나온다
 
 A2. Here's the secret recipe. I just download it from the file server. Just copy to a thumb drive and you're good to go.
 
+----
+
 **Q3. Ann이 전송 한 파일의 이름은 무엇입니까?**
 
 TCP strem으로 확인했을 때 recipe.docx라는 파일을 확인 할 수 있다.
@@ -65,6 +69,8 @@ TCP strem으로 확인했을 때 recipe.docx라는 파일을 확인 할 수 있�
 ![image](https://github.com/user-attachments/assets/a7d74bd5-7982-4766-9b71-f598d91fd9e2)
 
 A3. recipe.docx
+
+----
 
 **Q4. 추출하려는 파일의 매직 넘버는 무엇입니까 (처음 4 바이트)?**
 
@@ -75,6 +81,8 @@ A3. recipe.docx
 ![image](https://github.com/user-attachments/assets/fc005ee7-4d54-4e99-9b7a-cd5ff26e8fe7)
 
 A4. 50 4B 03 04
+
+----
 
 **Q5. 파일의 MD5sum은 무엇입니까?**
 
@@ -94,6 +102,8 @@ A5. af430f89a424e8514fedbe5ad975ae4f
 +좀 더 찾아보니까 아래 사이트에서도 MD5sum 을 구할 수 있다.
 
 https://www.strerr.com/ko/md5_file.html
+
+----
 
 **Q6. 비밀 레시피는 무엇입니까?**
 
